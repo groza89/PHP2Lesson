@@ -1,0 +1,125 @@
+html, body { /*Сбрасываем стандартные настройки*/
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url(../img/fon_pizza.jpg); /* .. - поднятьс на уровень выше папки css, потом уже идем в папку с картинкой*/
+    background-repeat: no-repeat;  /* чтобы картинка не повторялась*/
+    background-position: 300px 41px; /*отступы от краем страницы
+                                      первое число: оотступ слева
+                                      второе числоЖ отступ сверху*/
+}
+
+.menu-wrapper{
+    display: flex;
+    width: 254px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background: rgba(32, 32, 29, 0.98);
+    float: left;
+}
+.menu-wrapper a {
+    text-decoration: none;  /*убираем подчеркивание*/
+    color: #FFFFFF;
+}
+.menu-wrapper a:hover {color: #FFB803;}
+.img1 {
+    position: absolute;
+    width: 254px;
+    height: 243px;
+    left: 0px;
+    top: 0px;
+}
+ul {
+    width: 131px;
+    height: 296px;
+    margin-left: 30px;
+    margin-top: 300px;
+}
+li {
+    display: block;
+    padding-left: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    list-style-type: none; /*убираем маркеры*/
+}
+.pizza_h {
+    width: 707px;
+    height: 256px;
+    margin-left: 597px; /*отсутп текста+отступ фоновой картинки*/
+    margin-top: 81px;  /*отсутп текста+отступ фоновой картинки*/
+    background: rgba(220, 237, 27, 0.5);
+    border-radius: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 116px;
+    padding-top: 60px;
+    color: #121212;
+}
+.zakaz-form {
+    width: 927px;
+    height: 477px;
+    margin-left: 405px;
+    margin-top: 100px;
+    background: rgba(220, 237, 27, 0.5);
+    border-radius: 72px;
+    display: flex;   
+}
+.zakaz-h1 {
+    width: 565px;
+    height: 65px;
+    margin-top: 39px;
+    margin-left: 31px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 58px;
+    
+    color: #070707;
+}
+.telefon {
+    width: 444px;
+    height: 62px;
+    margin-left: 36px;
+    margin-top: 37px;
+    background: #FBF7F7;
+    border-radius: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    padding-top: 12px;
+    padding-left: 18px;
+}
+.zakaz {
+    width: 444px;
+    height: 62px;
+    margin-left: 36px;
+    margin-top: 49px;
+    background: #87E312;
+    border-radius: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    text-align: center;
+}
+.zakaz-img {
+    margin-top: 37px;
+    margin-left: 596px;
+}
